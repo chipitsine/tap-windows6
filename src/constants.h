@@ -114,7 +114,7 @@
 #define TAP_BUFFER_SIZE                    TAP_MAX_FRAME_SIZE
 
 // Set this value to TRUE if there is a physical adapter.
-#define TAP_HAS_PHYSICAL_CONNECTOR         FALSE
+#define TAP_HAS_PHYSICAL_CONNECTOR         TRUE
 #define TAP_ACCESS_TYPE                    NET_IF_ACCESS_BROADCAST
 #define TAP_DIRECTION_TYPE                 NET_IF_DIRECTION_SENDRECEIVE
 #define TAP_CONNECTION_TYPE                NET_IF_CONNECTION_DEDICATED
